@@ -1,13 +1,32 @@
 .cuadro {
-	border : 2px dashed gray;
-	height: 300px;
+	background: black;
+	border : 2px solid black;
+	height: 500px;
 	width:  300px;
 }
 
-.circulo {
+.rojo {
 	background: red;
 	border-radius: 100%;
-	height: 20px;
-	position: absolute;
-	width: 20px;
+	height: 165px;
+	position: relative;
+	width: 165px;
+	left: 23%;
+
+}
+.amarillo {
+	background: yellow;
+	border-radius: 100%;
+	height: 165px;
+	position: relative;
+	width: 165px;
+	left: 23%;
+}
+.verde {
+	background: green;
+	border-radius: 100%;
+	height: 165px;
+	position: relative;
+	width: 165px;
+	left: 23%;
 }

@@ -1,9 +1,6 @@
-function render(){
-	var h1Titulo=document.createElement("h1");
-	var titulo= document.createTextNode("Ejemplo dibujo:");
-	h1Titulo.appendChild(titulo);
-	
-	var root = document.getElementById("root");
-	root.appendChild(h1Titulo);
+function semaforo(){
+	var cuadro= document.createElement("div")
+	var colorRojo= document.createElement("div")
+	var colorAmarillo= document.createElement("div")
+	var colorVerde= document.createElement("div")
 }
-render();
